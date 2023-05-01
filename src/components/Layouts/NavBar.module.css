@@ -1,0 +1,50 @@
+.logoutBtn {
+  background-color: #222;
+  width: fit-content;
+  color: #e9e2e2;
+  padding: 1.2rem 3rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  border: 0.2rem solid #222;
+  margin-left: auto;
+  margin-right: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+
+  transition: all 0.5s;
+}
+
+.logoutBtn:hover {
+  background-color: #fff;
+  color: #222;
+  border: 0.2rem solid #222;
+}
+
+.logoutBtn span {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.logoutDesign {
+  font-size: 2.2rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 35rem) {
+  .logoutBtn {
+    padding: 0.6rem 1.2rem;
+  }
+
+  .logoutBtn span {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .logoutDesign {
+    font-size: 1.8rem;
+  }
+}

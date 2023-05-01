@@ -42,7 +42,7 @@ const Login = () => {
   const loginWithGoogle = async () => {
     try {
       const googleLoginDetails = await signInWithPopup(auth, provider);
-      console.log(googleLoginDetails);
+      // console.log(googleLoginDetails);
     } catch (error) {
       console.error(error);
     }

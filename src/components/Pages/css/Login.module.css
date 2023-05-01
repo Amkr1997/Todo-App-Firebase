@@ -1,0 +1,174 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginSection {
+  width: 60vw;
+  padding: 6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.heading {
+  font-size: 6rem;
+  font-weight: 500;
+  letter-spacing: 0.4rem;
+  line-height: 0.2;
+}
+
+.headingDesc {
+  font-size: 2.2rem;
+}
+
+.registerLink {
+  text-decoration: none;
+  color: black;
+  border-bottom: 0.1rem solid black;
+}
+
+.loginBtn {
+  width: 60%;
+  padding: 1.8rem 4.8rem;
+  background-color: #f1f3f5;
+  border-radius: 12rem;
+  margin-bottom: 4.8rem;
+  margin-top: 2.4rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+
+  transition: all 0.2s;
+}
+
+.loginBtn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.googleLogo {
+  font-size: 2.4rem;
+}
+
+.googleLoginBtn {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.form {
+  margin-top: 3.6rem;
+  padding-left: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-size: 1.8rem;
+}
+
+.inputLogin {
+  width: 70%;
+  border: none;
+  border-bottom: 0.2rem solid black;
+  font-size: 2.4rem;
+  padding: 1.6rem;
+}
+
+.inputLogin:focus {
+  outline: none;
+  border-color: #748ffc;
+}
+
+.signinBtn {
+  margin-top: 4.8rem;
+  width: 25%;
+  padding: 1.8rem 0 1.8rem 0;
+  border-radius: 12rem;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.8rem;
+
+  transition: all 0.3s;
+}
+
+.signinBtn:hover {
+  background-color: #f1f3f5;
+  color: black;
+}
+
+.imageSection {
+  width: 40vw;
+}
+
+.img {
+  height: 110vh;
+  width: 100%;
+}
+
+/* Media Queries */
+
+@media (max-width: 60rem) {
+  .loginSection {
+    width: 50vw;
+    padding: 4.8rem;
+  }
+
+  .imageSection {
+    width: 50vw;
+  }
+
+  .img {
+    height: 110vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 46rem) {
+  .loginSection {
+    width: 100vw;
+    padding: 4.8rem 3.6rem 4.8rem 10.6rem;
+  }
+
+  .signinBtn {
+    border-radius: 2rem;
+    width: 35%;
+    padding: 1.2rem 0 1.2rem 0;
+    font-size: 1.6rem;
+  }
+
+  .imageSection {
+    width: 0;
+  }
+
+  .img {
+    display: none;
+  }
+}
+
+@media (max-width: 33rem) {
+  .heading {
+    font-size: 4.8rem;
+  }
+
+  .headingDesc {
+    font-size: 1.8rem;
+  }
+
+  .loginSection {
+    padding-left: 5.4rem;
+    margin-top: 7.2rem;
+  }
+
+  .loginBtn {
+    width: 70%;
+    padding: 1.2rem 3.6rem;
+  }
+}

@@ -1,0 +1,179 @@
+.header {
+  padding: 2.4rem;
+  margin-bottom: -2.4rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainElements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headingLogo {
+  font-size: 6.4rem;
+}
+
+.mainHeading {
+  font-size: 7.2rem;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.input {
+  padding: 1.2rem 3.6rem;
+  font-size: 2.4rem;
+  width: 65rem;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.input:focus {
+  border: 0.3rem solid #ffd43b;
+}
+
+.addButton {
+  background-color: #222;
+  padding: 1.2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.3s;
+}
+
+/*
+.addButton:hover {
+  background-color: #fff;
+}
+.addButtonDesign:hover {
+  color: #222;
+}
+*/
+
+.addButtonDesign {
+  font-size: 3.2rem;
+  color: #e9e2e2;
+
+  transition: all 0.3s;
+}
+
+.todoShowcase {
+  margin-top: 3rem;
+}
+
+.todos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+
+  margin-bottom: 1.2rem;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.inputCheck {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+  accent-color: #74b816;
+  outline: none;
+  cursor: pointer;
+}
+
+.todoContent {
+  font-size: 2.4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.deleteBtnDesign {
+  font-size: 2.4rem;
+  cursor: pointer;
+  color: #f03e3e;
+}
+
+/* Media Queries */
+
+@media (max-width: 54rem) {
+  .input {
+    width: 50rem;
+  }
+
+  .addButton {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 44rem) {
+  .input {
+    width: 40rem;
+  }
+
+  .headingLogo {
+    font-size: 5.4rem;
+  }
+
+  .mainHeading {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 35rem) {
+  .input {
+    width: 25rem;
+    font-size: 1.8rem;
+  }
+
+  .headingLogo {
+    font-size: 5.4rem;
+  }
+
+  .mainHeading {
+    font-size: 4.8rem;
+  }
+
+  .addButton {
+    padding: 1.1rem;
+  }
+
+  .addButtonDesign {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 1.8rem 0.6rem 1.8rem 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+}
